@@ -1,9 +1,14 @@
 server:
-  port: 9001
+  port: 9295
+
 
 spring:
   application:
-    name: DEPARTMENT-SERVICE
+    name: HYSTRIX-DASHBOARD
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
 
 eureka:
   client:
