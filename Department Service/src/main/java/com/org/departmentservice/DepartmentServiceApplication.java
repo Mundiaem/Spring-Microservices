@@ -13,7 +13,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = "com.org.departmentservice.repository", entityManagerFactoryRef = "entityManagerFactory")
 @EnableEurekaClient
 public class DepartmentServiceApplication {
-    //https://www.youtube.com/watch?v=BnknNTN8icw
     public static void main(String[] args) {
         SpringApplication.run(DepartmentServiceApplication.class, args);
     }
